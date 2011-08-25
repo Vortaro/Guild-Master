@@ -1,24 +1,29 @@
-#include <iostream>
-using namespace std;
+#ifndef ECONOMY_H
+#define ECONOMY_H
 
 class Linear
-/*variables in class are in parenthesis, and the line below demonstrates*/
-/*the class*/ 
-/*y(price)=b(initialprice)-[a(rate)*x(supply)]*/
-/*supply curve for "regular" goods*/
+//variables in class are in parenthesis, and the line below demonstrates
+//the class 
+//y(price)=b(initialprice)-[a(rate)*x(supply)]
+//demand curve for "regular" goods
 {
 private:
   int initialprice;
   float rate;
-  short supply;
+  int supply;
 public:
   void setInitialPrice(int);
   void setRate(float);
-  void setSupply(short);
-  int getInitialPrice() const;
-  float getRate() const;
-  short getSupply() const;
-  int getPrice() const;  //I don't want any decimals in the final result
+  void setSupply(int);
+	void resetPrice(short);
+  int getInitialPrice() const
+	{ return initialprice; }
+  float getRate() const
+	{ return rate; }
+  short getSupply() const
+	{ return supply; }
+  int getPrice() const  //I don't want any decimals in the final result
+	{ return initialprice - (rate * supply); }
 };
 
 void Linear::setInitialPrice(int inip)
@@ -29,23 +34,9 @@ void Linear::setRate(float r)
 {
   rate = r;
 }
-void Linear::setSupply(short supp)
+void Linear::setSupply(int supp)
 {
   supply = supp;
 }
-int Linear::getInitialPrice() const
-{
-  return initialprice;
-}
-float Linear::getRate() const
-{
-  return rate;
-}
-short Linear::getSupply() const
-{
-  return supply;
-}
-int Linear::getPrice() const
-{
-  return initialprice - (rate * supply);
-}
+
+#endif

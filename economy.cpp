@@ -2,7 +2,7 @@
 #include "economy.h"
 using namespace std;
 //This is a test program for a linear demand curve
-int main()
+int economy()
 {
   Linear good;
   int linnumber;  //lin stands for linear
