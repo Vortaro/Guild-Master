@@ -15,12 +15,12 @@
 (defconstant +week-extra-long+ 6) ;; Last week in month 13 of year 8
 
 ;; Global variables
-(defvar *year* 0) ;; Holds years that have passed
-(defvar *year-in-cycle* 0) ;; Holds the year in the cycle
-(defvar *month* 0) ;; Holds the current month type
-(defvar *month-of-year* 0) ;; Holds the month in year so far
-(defvar *week* 0)  ;; Holds the current week type
-(defvar *week-in-month* 0) ;; Holds current week in the month so far
+(defvar *year* 1) ;; Holds years that have passed
+(defvar *year-in-cycle* 1) ;; Holds the year in the cycle
+(defvar *month* 1) ;; Holds the current month type
+(defvar *month-of-year* 1) ;; Holds the month in year so far
+(defvar *week* 1)  ;; Holds the current week type
+(defvar *week-in-month* 1) ;; Holds current week in the month so far
 (defvar *day* 0) ;; Holds days in year so far
 (defvar *days-in-year* 0) ;; Holds the total days in the year
 (defvar *day-of-month* 0) ;; Holds days in month so far
@@ -197,6 +197,12 @@
 		(increase-week-in-month)
 		(reset-day-of-week-counter)))
 
+;; Prints the date!
+
+(defun print-date ()
+	(format t "d~d-m~d-y~d~%" *day-of-month* *month-of-year* *year*) ;; Basic
+	(format t "dow~d-w~d~%" *day-of-week* *week-in-month*)) ;; Week data
+
 ;; The ticker on which the days change
 (defvar *tick-p* t)
 (let ((prev-time 0) (cur-time 0) (difference 0))
@@ -215,8 +221,9 @@
 	(setf difference (- cur-time prev-time))
 	(if (>= difference 30)
 			(setf *tick-p* t))
-	(if (eql *tick-p* t)
-			(run-time-functions)))
-(defun loop-start ()
+	(when (eql *tick-p* t)
+			(run-time-functions)
+			(print-date)))
+(defun loop-start () ;; Loop for many ingame functions
 	(loop			 
 		 (ticker))))
