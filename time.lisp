@@ -195,7 +195,7 @@
 						 (eql *month* +month-long+))
 		(start-long-week)
 		(increase-week-in-month)
-		(reset-day-of-week-counter))))
+		(reset-day-of-week-counter)))
 
 ;; The ticker on which the days change
 (defvar *tick-p* t)
