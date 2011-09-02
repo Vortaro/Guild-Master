@@ -1,5 +1,144 @@
-This program is in the pre-alpha stage, so it is subject to amazing changes and
- numerous planned features.  These features include a robust trading system 
+This is a game that aims to create an alternate world with a level of technology
+similar to that in medieval times.  In this world you run a trading company that
+handles land and maritime trade.
+
+***This program is in the pre-alpha stage, so it is subject to amazing changes 
+and numerous planned features.  These features include a robust trading system 
 consisting of land and sea trade, random generation of the game world, control 
 of subordinate traders, city-states, wars, and gaining political office through
 your success, and lots of other smaller things, none of which include a gui!
+
+--To-do List--
+(An X indicates that it has been completed)
+
+Trading and Economy-
+
+XDemand curves
+Buying and selling goods
+Trade interface (goods list, various menus)
+Recalculation of price of good for each unit bought or sold
+Opportunities to buy special goods
+Cities produce and consume goods
+Goods to trade! (each one needs to be put on a demand curve)
+Subordinate traders
+Land
+-Animals carrying packs
+-Carts
+-Wagons
+-Roads of dirt and paved
+Water
+-Ships
+--Sail
+---Daŭ (small)
+---Kutero (small fast ship)
+---Bilandero (small-med)
+---Kogo (medium)
+---Sonero (medium fast ship)
+---Brigeno (med-large)
+---Barko (large)
+--Oar and sail
+---Snekio (small)
+---Galeo (small-med)
+---Dromono (medium)
+AI competitors
+
+Travel and the unknown-
+
+Restrictions on ship size for river travel
+Road conditions affect speed
+Expeditions to faraway lands
+Expeditions from faraway lands
+Diplomacy with faraway lands
+Ships
+-Kakumo (small)
+-Zao (medium)
+-Ĝunko (large)
+Land carriage
+-Travois
+Exotic invaders
+-Exotic weapons and armor
+
+Cities-
+
+City interface (enter various buildings to do actions)
+Classes of citizens
+-Lower
+-Middle
+-Upper
+Buildings
+-Market
+-Offices
+-Town hall
+-Temple
+-Armory
+-Industries
+-Houses
+-Walls
+
+Politics-
+
+Political offices
+-Civil servant
+-Town council
+-Mayor
+-Guild Master
+Inter-city-state relations
+Countries
+Public works
+-Roads
+-Canals
+-Buildings
+-Founding new towns
+AI officials
+
+Military-
+
+Wars
+Raids
+Bandits
+Pirates
+Sieges
+City garrison
+Soldiers on ships and as caravan guards
+Military ships
+-Sail
+--Slupo (small)
+--Brigo (medium)
+--Frigato (large)
+-Oar and sail
+--Skeo (small)
+--Zebeko (medium)
+Weapons
+-Bow
+-Crossbow
+-Javelin
+-Sling
+-Spear
+-Glaive
+-Sword
+-Axe
+-Mace
+Armor
+-Leather
+-Chain mail
+-Plate armor
+Siege and ship weapons
+-Trebuchet
+-Ballista
+-Onager
+-Rams
+-Grapples (ship)
+-Ladders (siege)
+
+Environment-
+
+XLunisolar calendar
+XTicker that changes the day on real-time
+Looping weeks, months, years in cycle
+Time-based random events
+Weather with effects
+Winds on seas
+
+Miscellaneous-
+
+XTitle menu
