@@ -249,7 +249,7 @@
 (defvar *tick-p* t)
 (let ((prev-time 0) (cur-time 0) (difference 0))
 	(defun set-prev-time () (setf prev-time (get-universal-time)))
-	(defun run-time-functions () 
+	(defun run-time-functions () ;; Time-dependent functions
 		(increase-day-counter)
 		(increase-day-of-week-counter)
 		(increase-day-of-month-counter)
@@ -259,7 +259,7 @@
 		(week-check)
 		(set-prev-time)
 		(setf *tick-p* nil))
-	(defun ticker ()
+	(defun ticker () ;; Sends a t signal every 30 seconds
 		(setf cur-time (get-universal-time))
 		(setf difference (- cur-time prev-time))
 		(if (>= difference 30)
