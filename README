@@ -16,7 +16,7 @@ Trading and Economy-
 XDemand curves
 Buying and selling goods
 Trade interface (goods list, various menus)
-Recalculation of price of good for each unit bought or sold
+xRecalculation of price of good for each unit bought or sold
 Opportunities to buy special goods
 Cities produce and consume goods
 Goods to trade! (each one needs to be put on a demand curve)
@@ -35,12 +35,11 @@ Water
 ---Kogo (medium)
 ---Sonero (medium fast ship)
 ---Brigeno (med-large)
----Barko (large)
+---Karako (large)
 --Oar and sail
 ---Snekio (small)
 ---Galeo (small-med)
 ---Dromono (medium)
-AI competitors
 
 Travel and the unknown-
 
@@ -69,11 +68,14 @@ Buildings
 -Market
 -Offices
 -Town hall
+-Tavern
 -Temple
 -Armory
 -Industries
 -Houses
 -Walls
+-Stables
+-Shipyard
 
 Politics-
 
@@ -89,7 +91,7 @@ Public works
 -Canals
 -Buildings
 -Founding new towns
-AI officials
+
 
 Military-
 
@@ -135,10 +137,18 @@ Environment-
 XLunisolar calendar
 XTicker that changes the day on real-time
 XLooping weeks, months, years in cycle
-Time-based random events
 Weather with effects
 Winds on seas
+Sea currents
 
-Miscellaneous-
+Gameplay-
 
 XTitle menu
+Pause function
+Clearscreen so menus take up whole terminal
+Saving and loading games
+Randomness
+-Town names
+-Maps
+-Events
+AI
