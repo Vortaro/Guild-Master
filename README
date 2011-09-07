@@ -16,10 +16,39 @@ Trading and Economy-
 XDemand curves
 Buying and selling goods
 Trade interface (goods list, various menus)
-xRecalculation of price of good for each unit bought or sold
+XRecalculation of price of good for each unit bought or sold
 Opportunities to buy special goods
 Cities produce and consume goods
-Goods to trade! (each one needs to be put on a demand curve)
+Cities have one or two very productive industries and several more mediocre
+XGoods to trade! (each one needs to be put on a demand curve)
+X-Beer
+X-Fruit Juice
+X-Wine
+X-Fish
+X-Fruit
+X-Grain
+X-Honey
+X-Meat
+X-Roots
+X-Salt
+X-Vegetables
+X-Medicine
+X-Bronze Ingots
+X-Bronze Wares
+X-Cloth
+X-Clothing
+X-Dyes
+X-Glass
+X-Hemp
+X-Furs
+X-Iron Ingots
+X-Iron Wares
+X-Leather
+X-Pitch
+X-Pottery
+X-Stone
+X-Whale Oil
+X-Wool
 Subordinate traders
 Land
 -Animals carrying packs
@@ -45,15 +74,25 @@ Travel and the unknown-
 
 Restrictions on ship size for river travel
 Road conditions affect speed
+Exotic Cultures
+-The Jaguar People
+--Land Carriage
+---Packs
+-The Kingdom of Heaven
+--Ships
+---Kakumo (small)
+---Zao (medium)
+---Ĝunko (large)
+-The Forest Dwellers
+--Land Carriage
+---Dogs with packs
+---Travois
+-The Desert Tribes
+-People of the Savannah
+
 Expeditions to faraway lands
 Expeditions from faraway lands
 Diplomacy with faraway lands
-Ships
--Kakumo (small)
--Zao (medium)
--Ĝunko (large)
-Land carriage
--Travois
 Exotic invaders
 -Exotic weapons and armor
 
@@ -148,7 +187,8 @@ Pause function
 Clearscreen so menus take up whole terminal
 Saving and loading games
 Randomness
--Town names
+-City specialization
+-City names
 -Maps
 -Events
 AI

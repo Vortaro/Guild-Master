@@ -22,7 +22,7 @@
 (defun print-money ()
 	(format t "Current funds: ~d~%" *money*))
 
-(let ((price 0) (new-supply 0) (supply 60) (rate .042) (initial-price 450))
+(let ((price 0) (new-supply 0) (supply 20) (rate 14.2) (initial-price 2050))
 (defun print-price ()
 	(format t "Price: ~d~%" price))
 (defun linear ()
@@ -41,6 +41,7 @@
 	(setf supply (incf supply)))
 (defun set-new-supply ()
 	(setf supply new-supply))
+
 (defun buy-loop ()
 	(find-new-buy-supply)
 	(format t "s~d ns~d~%" supply new-supply)

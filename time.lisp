@@ -1,3 +1,18 @@
+;;    Copyright (C) 2011  Christopher Hanna
+
+;;    This program is free software: you can redistribute it and/or modify
+;;    it under the terms of the GNU General Public License as published by
+;;    the Free Software Foundation, either version 3 of the License, or
+;;    (at your option) any later version.
+
+;;    This program is distributed in the hope that it will be useful,
+;;    but WITHOUT ANY WARRANTY; without even the implied warranty of
+;;    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;;    GNU General Public License for more details.
+
+;;    You should have received a copy of the GNU General Public License
+;;    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 ;; A lunisolar calendar for the world based on the Metonic Cycle
 
 ;; Constants
@@ -259,10 +274,10 @@
 		(week-check)
 		(set-prev-time)
 		(setf *tick-p* nil))
-	(defun ticker () ;; Sends a t signal every 30 seconds
+	(defun ticker () ;; Sends a t signal every 10 seconds
 		(setf cur-time (get-universal-time))
 		(setf difference (- cur-time prev-time))
-		(if (>= difference 30)
+		(if (>= difference 10) ;; length of tick, and therefore, day
 				(setf *tick-p* t))
 		(when (eql *tick-p* t)
 			(run-time-functions)
