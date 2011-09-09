@@ -1,59 +1,59 @@
-((good: "Beer" :type :native :rate .110 :initial-price 100 :space 1)
-(good: "Fruit Juice" :type :native :rate .360 :initial-price 235 :space 1)
-(good: "Wine" :type :native :rate 1.23 :initial-price 540 :space 1)
-(good: "Fish" :type :native :rate 1.98 :initial-price 625 :space 10)
-(good: "Fruit" :type :native :rate .960 :initial-price 385 :space 10)
-(good: "Grain" :type :native :rate .200 :initial-price 130 :space 10)
-(good: "Honey" :type :native :rate 1.65 :initial-price 410 :space 1)
-(good: "Meat" :type :native :rate 8.00 :initial-price 2350 :space 10)
-(good: "Roots" :type :native :rate 730 :initial-price 1560 :space 10)
-(good: "Salt" :type :native :rate .135 :initial-price 70 :space 1)
-(good: "Vegetables" :type :native :rate .800  :initial-price 320 :space 10)
-(good: "Medicine" :type :native :rate 15.3  :initial-price 2500 :space 10)
-(good: "Bronze Ingots" :type :native :rate 14.2 :initial-price 2050 :space 10)
-(good: "Bronze Wares" :type :native :rate .755 :initial-price 350 :space 1)
-(good: "Cloth" :type :native :rate 1.58 :initial-price 400 :space 1)
-(good: "Clothing" :type :native :rate 4.20 :initial-price 1050 :space 1)
-(good: "Dyes" :type :native :rate .780  :initial-price 240 :space 1)
-(good: "Glass" :type :native :rate 2.30 :initial-price 550 :space 10)
-(good: "Hemp" :type :native :rate 4.15 :initial-price 890 :space 10)
-(good: "Furs" :type :native :rate 15.8  :initial-price 2450 :space 1)
-(good: "Iron Ingots" :type :native :rate 22.0 :initial-price 3400 :space 10)
-(good: "Iron Wares" :type :native :rate 1.68 :initial-price 600 :space 1)
-(good: "Leather" :type :native :rate 1.62 :initial-price 510 :space 1)
-(good: "Pitch" :type :native :rate .890 :initial-price 160 :space 1)
-(good: "Pottery" :type :native :rate 1.25 :initial-price 370 :space 1)
-(good: "Stone" :type :native :rate .178 :initial-price 95 :space 10)
-(good: "Whale Oil" :type :native :rate 2.05 :initial-price 450 :space 1)
-(good: "Wool" :type :native :rate 8.20 :initial-price 1865 :space 10))
---
-*Exotic*
---
-Coffee
-Tea
---
-Chocolate
-Corn
-Exotic fish
-Exotic fruit
-Exotic meat
-Exotic vegetables
-Rice
-Spices
---
-Bamboo
-Exotic furs
-Exotic lumber
-Gems
-Gold ingots
-Gold wares
-Incense
-Ivory
-Jute
-Obsidian
-Porcelain
-Rugs
-Silk
-Silver ingots
-Silver wares
-Tobacco
+((:good "Beer" :type :native :rate .110 :initial-price 100 :space 1)
+(:good "Fruit Juice" :type :native :rate .360 :initial-price 235 :space 1)
+(:good "Wine" :type :native :rate 1.23 :initial-price 540 :space 1)
+(:good "Fish" :type :native :rate 1.98 :initial-price 625 :space 10)
+(:good "Fruit" :type :native :rate .960 :initial-price 385 :space 10)
+(:good "Grain" :type :native :rate .200 :initial-price 130 :space 10)
+(:good "Honey" :type :native :rate 1.65 :initial-price 410 :space 1)
+(:good "Meat" :type :native :rate 8.00 :initial-price 2350 :space 10)
+(:good "Roots" :type :native :rate 730 :initial-price 1560 :space 10)
+(:good "Salt" :type :native :rate .135 :initial-price 70 :space 1)
+(:good "Vegetables" :type :native :rate .800  :initial-price 320 :space 10)
+(:good "Medicine" :type :native :rate 15.3  :initial-price 2500 :space 10)
+(:good "Bronze Ingots" :type :native :rate 14.2 :initial-price 2050 :space 10)
+(:good "Bronze Wares" :type :native :rate .755 :initial-price 350 :space 1)
+(:good "Cloth" :type :native :rate 1.58 :initial-price 400 :space 1)
+(:good "Clothing" :type :native :rate 4.20 :initial-price 1050 :space 1)
+(:good "Dyes" :type :native :rate .780  :initial-price 240 :space 1)
+(:good "Glass" :type :native :rate 2.30 :initial-price 550 :space 10)
+(:good "Hemp" :type :native :rate 4.15 :initial-price 890 :space 10)
+(:good "Furs" :type :native :rate 15.8  :initial-price 2450 :space 1)
+(:good "Iron Ingots" :type :native :rate 22.0 :initial-price 3400 :space 10)
+(:good "Iron Wares" :type :native :rate 1.68 :initial-price 600 :space 1)
+(:good "Leather" :type :native :rate 1.62 :initial-price 510 :space 1)
+(:good "Pitch" :type :native :rate .890 :initial-price 160 :space 1)
+(:good "Pottery" :type :native :rate 1.25 :initial-price 370 :space 1)
+(:good "Stone" :type :native :rate .178 :initial-price 95 :space 10)
+(:good "Whale Oil" :type :native :rate 2.05 :initial-price 450 :space 1)
+(:good "Wool" :type :native :rate 8.20 :initial-price 1865 :space 10))
+;;--
+;;*Exotic*
+;;--
+;;Coffee
+;;Tea
+;;--
+;;Chocolate
+;;Corn
+;;Exotic fish
+;;Exotic fruit
+;;Exotic meat
+;;Exotic vegetables
+;;Rice
+;;Spices
+;;--
+;;Bamboo
+;;Exotic furs
+;;Exotic lumber
+;;Gems
+;;Gold ingots
+;;Gold wares
+;;Incense
+;;Ivory
+;;Jute
+;;Obsidian
+;;Porcelain
+;;Rugs
+;;Silk
+;;Silver ingots
+;;Silver wares
+;;Tobacco
