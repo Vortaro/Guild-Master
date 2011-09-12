@@ -13,14 +13,19 @@
 ;;    You should have received a copy of the GNU General Public License
 ;;    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-;; Title screen with license information
+;; Title screen
 
 (load "time.lisp")
 (load "economy.lisp")
+
+(defparameter *gt-menu* ;; Game testing features to see the game before it is
+	`(("Trade interface" . ,(lambda () (trade-interface-start))) ;; complete
+		("Game time" . ,(lambda () (loop-start)))
+		("Exit" . ,(lambda () (format t "Quitting...")))))
 (defparameter *main-menu*
 	`(("Play a world" . ,(lambda () (format t "play")))
 		("Generate new world" . ,(lambda () (format t "generate")))
-		("Game testing features" . ,(lambda () (format t "test")))
+		("Game testing features" . ,(lambda () (show-menu "Choose an option" *gt-menu*)))
 		("Exit" . ,(lambda () (format t "Quitting...")))))
 
 (defun show-menu (title entries)
@@ -36,8 +41,7 @@
 							 (show-menu title entries)))))
 
 (defun license ()
-	(format t 
-					"Guild Master Pre-Alpha Copyright (C) 2011 Christopher Hanna~%~%"))
+	(format t "Guild Master Pre-Alpha Copyright (C) 2011 Christopher Hanna~%~%"))
 
 (license)
 (show-menu "GUILD MASTER" *main-menu*)
