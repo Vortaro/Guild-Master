@@ -14,7 +14,7 @@ your success, and lots of other smaller things, none of which include a gui!
 Trading and Economy-
 
 XDemand curves
-Buying and selling goods
+XBuying and selling goods
 Trade interface (goods list, various menus)
 XRecalculation of price of good for each unit bought or sold
 Opportunities to buy special goods
@@ -51,29 +51,29 @@ X-Whale Oil
 X-Wool
 Subordinate traders
 Land
--Animals carrying packs
--Carts
--Wagons
+X-Animals carrying packs
+X-Carts
+X-Wagons
 -Roads of dirt and paved
-Water
--Ships
---Sail
----Daŭ (small)
----Kutero (small fast ship)
----Bilandero (small-med)
----Kogo (medium)
----Sonero (medium fast ship)
----Brigeno (med-large)
----Karako (large)
---Oar and sail
----Snekio (small)
----Galeo (small-med)
----Dromono (medium)
+XWater
+X-Ships
+X--Sail
+X---Barko (small)
+X---Kutero (small fast ship)
+X---Bilandero (small-med)
+X---Kogo (medium)
+X---Sonero (medium fast ship)
+X---Brigeno (med-large)
+X---Karako (large)
+X--Oar and sail
+X---Snekio (small)
+X---Galeo (small-med)
+X---Dromono (medium)
 
 Travel and the unknown-
 
-Restrictions on ship size for river travel
-Road conditions affect speed
+XRestrictions on ship size for river travel
+Road conditions affect speed and permissibility
 Exotic Cultures
 -The Jaguar People
 --Land Carriage
@@ -85,16 +85,21 @@ Exotic Cultures
 ---Ĝunko (large)
 -The Forest Dwellers
 --Land Carriage
----Dogs with packs
+---Dogs
 ---Travois
 -The Desert Tribes
+--Land Carriage
+---Camels
+---Horses
 -People of the Savannah
-
+-The Golden Horde
+--Land Carriage
+---Horses
+---Camels
 Expeditions to faraway lands
 Expeditions from faraway lands
 Diplomacy with faraway lands
 Exotic invaders
--Exotic weapons and armor
 
 Cities-
 
@@ -121,7 +126,7 @@ Politics-
 Political offices
 -Civil servant
 -Town council
--Mayor
+-Lord Mayor
 -Guild Master
 Inter-city-state relations
 Countries
@@ -141,35 +146,36 @@ Pirates
 Sieges
 City garrison
 Soldiers on ships and as caravan guards
-Military ships
--Sail
---Slupo (small)
---Brigo (medium)
---Frigato (large)
--Oar and sail
---Skeo (small)
---Zebeko (medium)
-Weapons
--Bow
--Crossbow
--Javelin
--Sling
--Spear
--Glaive
--Sword
--Axe
--Mace
-Armor
--Leather
--Chain mail
--Plate armor
-Siege and ship weapons
--Trebuchet
--Ballista
--Onager
--Rams
--Grapples (ship)
--Ladders (siege)
+XMilitary ships
+X-Sail
+X--Slupo (small)
+X--Brigo (medium)
+X--Frigato (large)
+X-Oar and sail
+X--Skeo (small)
+X--Zebeko (medium)
+XWeapons
+X-Bow
+X-Crossbow
+X-Javelin
+X-Sling
+X-Spear
+X-Halberd
+X-Sword
+X-Falchion
+X-Axe
+X-Mace
+XArmor
+X-Leather
+X-Chain mail
+X-Plate armor
+XSiege and ship weapons
+X-Trebuchet
+X-Ballista
+X-Onager
+X-Rams
+X-Grapples (ship)
+X-Ladders (siege)
 
 Environment-
 
@@ -183,6 +189,7 @@ Sea currents
 Gameplay-
 
 XTitle menu
+Mail correspondence
 Pause function
 Clearscreen so menus take up whole terminal
 Saving and loading games

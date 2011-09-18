@@ -1,0 +1,24 @@
+;; Unit to modify
+((:name "man" :range 0 :slash 0 :chop 0 :stab 0 :bash 2 :speed 4 :attack-speed 1 :mobility 10 :health 100))
+;; Weapons
+((:name "Bow" :range 170 :slash 0 :chop 0 :stab 6 :bash 1 :attack-speed 5)
+(:name "Crossbow" :range 100 :slash 0 :chop 0 :stab 8 :bash 2 :attack-speed 8)
+(:name "Javelin" :range 30 :slash 0 :chop 0 :stab 5 :bash 2 :attack-speed 4)
+(:name "Sling" :range 50 :slash 0 :chop 0 :stab 0 :bash 5 :attack-speed 3)
+(:name "Spear" :range 1 :slash 1 :chop 0 :stab 6 :bash 3 :attack-speed 4)
+(:name "Halberd" :range 1 :slash 2 :chop 5 :stab 4 :bash 3 :attack-speed 3)
+(:name "Sword" :range 0 :slash 8 :chop 0 :stab 4 :bash 2 :attack-speed 2)
+(:name "Falchion" :range 0 :slash 3 :chop 7 :stab 1 :bash 2 :attack-speed 3)
+(:name "Axe" :range 0 :slash 3 :chop 7 :stab 1 :bash 2 :attack-speed 5)
+(:name "Mace" :range 0 :slash 0 :chop 0 :stab 0 :bash 7 :attack-speed 5))
+;; Armor
+((:name "Leather" :speed 3.8 :mobility 9 :health 50)
+(:name "Chain mail" :speed 2.7 :mobility 6 :health 200)
+(:name "Plate armor" :speed 1.6 :mobility 3 :health 450))
+;;Heavy weapons
+((:name "Trebuchet" :range 300 :stab 0 :bash 600 :health 700 :attack-speed 30)
+(:name "Onager" :range 130 :stab 0 :bash 150 :health 400 :attack-speed 10)
+(:name "Ballista" :range 250 :stab 130 :bash 50 :health 400 :attack-speed 15)
+(:name "Siege Ram" :range 0 :stab 0 :bash 100 :health 3000 :attack-speed 20)
+(:name "Grapple" :range 50 :health 200 :attack-speed 0)
+(:name "Ladder" :range 0 :health 120 :attack-speed 0))
